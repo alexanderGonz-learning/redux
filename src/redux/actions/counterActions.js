@@ -12,3 +12,13 @@ export const increment = () => ({
 export const decrement = () => ({
   type: DECREMENT
 })
+
+// Es una funcion que devuelve otra funcion para que se pueda usar con parametros al momento de invocarla
+// La funcion devuelta es la que recibe el dispatch por parametro
+export const incrementAsync = (delay) => (dispatch) => { 
+  setTimeout(() => {
+    dispatch({
+      type: INCREMENT
+    })
+  }, delay)
+}

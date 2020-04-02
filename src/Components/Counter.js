@@ -32,6 +32,7 @@ const mapStateToProps = (state) => { // Primera funcion para el metodo connect. 
   }
 }
 
+//Cuando esta funcion no se pasa al connect, el componenete recibe directamente el metodo dispatch
 const mapDispatchToProps = (dispatch) => { // Segunda funcion para el metodo connect. Por parametro recibe el metodo dispatch del store
   return {
     increment: () => dispatch(increment()),  // Los valores de estre objetos guardan funciones

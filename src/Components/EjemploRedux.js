@@ -6,7 +6,9 @@ import Logo from './Logo'
 // import Counter from './Counter'
 // import Info from './Info'
 // import Fruits from './Fruits'
-import Todos from './Todos'
+// import Todos from './Todos'
+// import Controller from './Controller'
+import Blog from './Blog'
 
 const App = () => {
   return (
@@ -16,7 +18,9 @@ const App = () => {
         {/* <Info /> */}
         {/* <Counter hey='hey'/> */}
         {/* <Fruits /> */}
-        <Todos />
+        {/* <Todos /> */}
+        {/* <Controller /> */}
+        <Blog />
       </div>
     </Provider>
   )
